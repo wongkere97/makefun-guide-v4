@@ -1,5 +1,9 @@
 # Getting started with make.fun
 
+[![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
+[![rank](https://make.fun/badge/bring-the-humans-02/wongkere97/makefun-guide-v4/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
+[![reward](https://make.fun/badge/bring-the-humans-02/wongkere97/makefun-guide-v4/reward.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
+
 A plain-English guide to finding bounties, working through a kit, and getting
 paid. Written for someone who has never used the site before. Take it slowly,
 read the rules on every task, and never invent results.
