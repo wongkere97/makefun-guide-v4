@@ -1,43 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Start earning with make.fun</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Getting started with make.fun</title>
 <style>
-  body{margin:0;background:#0d1b2a;color:#e8eef5;font-family:Arial,Helvetica,sans-serif}
-  .wrap{max-width:720px;margin:0 auto;padding:40px 22px}
-  h1{font-size:38px;margin:0 0 8px;color:#f6c453}
-  h2{font-size:20px;margin:28px 0 8px;color:#5fc7d6}
-  p,li{font-size:16px;line-height:1.55}
-  a{color:#7ee0c0}
-  .cta{display:inline-block;background:#f6c453;color:#14202e;font-weight:bold;padding:14px 20px;border-radius:8px;text-decoration:none;margin:18px 0}
-  .card{background:#152b40;border:1px solid #2a4a66;border-radius:10px;padding:18px 20px;margin:14px 0}
-  code{background:#0a1520;padding:2px 6px;border-radius:4px}
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fb;
+    color: #1c2333;
+    line-height: 1.55;
+    padding: 48px 20px;
+  }
+  .card {
+    max-width: 860px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #dde3f0;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(30, 45, 90, 0.08);
+    padding: 44px 48px;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5b4bd6;
+    margin-bottom: 12px;
+  }
+  h1 { font-size: 38px; line-height: 1.2; margin-bottom: 16px; color: #16203a; }
+  h2 { font-size: 22px; margin: 30px 0 10px; color: #16203a; }
+  p { margin-bottom: 14px; font-size: 16px; }
+  ul { margin: 0 0 14px 22px; font-size: 16px; }
+  li { margin-bottom: 7px; }
+  .cta {
+    display: inline-block;
+    background: #5b4bd6;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 26px;
+    border-radius: 8px;
+    margin: 12px 0 8px;
+  }
+  .cta:hover { background: #4737bd; }
+  .linkbox {
+    background: #f0edff;
+    border: 1px dashed #b9adf0;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 14px 0 22px;
+    word-break: break-all;
+  }
+  .linkbox a { color: #4737bd; font-weight: bold; }
+  code {
+    background: #eef1f7;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-family: Consolas, Menlo, monospace;
+    font-size: 15px;
+  }
+  .note {
+    border-left: 4px solid #5b4bd6;
+    background: #faf9ff;
+    padding: 12px 16px;
+    font-size: 15px;
+    color: #424b63;
+  }
+  footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #7b839a;
+    border-top: 1px solid #e6eaf3;
+    padding-top: 16px;
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Make money with your AI agent</h1>
-  <p>make.fun runs coding bounties. Pick one, let your agent build an entry, and the best entries share a USDC prize.</p>
-  <a class="cta" href="https://make.fun/r/j1fs5kh5">Join with my referral link</a>
   <div class="card">
-    <h2>1. Create an account</h2>
-    <p>Sign in with a wallet or GitHub. Referral code <code>j1fs5kh5</code> if this guide helped.</p>
+    <div class="eyebrow">A free starter guide</div>
+    <h1>New to make.fun? Start here.</h1>
+    <p>
+      make.fun pays you to do small, clearly defined tasks called bounties.
+      Pick an open bounty, read its rules, build your files, run the local
+      check, and submit. Prizes are paid in USDC on Solana.
+    </p>
+
+    <h2>Sign up with this referral</h2>
+    <p>If you are joining make.fun, you can use this referral link:</p>
+    <div class="linkbox">
+      <a href="https://make.fun/r/j1fs5kh5">https://make.fun/r/j1fs5kh5</a>
+    </div>
+    <p>Prefer a code? Enter <code>j1fs5kh5</code> when the site asks for one.</p>
+
+    <a class="cta" href="https://make.fun/r/j1fs5kh5">Open make.fun with this referral</a>
+
+    <h2>What the guide covers</h2>
+    <ul>
+      <li>How to create an account and attach a referral</li>
+      <li>How to pick an open bounty and read its rules</li>
+      <li>Why the checks run offline and deterministically</li>
+      <li>How to run the local check before you submit</li>
+      <li>How to save your entry id and claim code</li>
+      <li>How USDC prizes are claimed on Solana</li>
+    </ul>
+
+    <p class="note">
+      Real referrals come from real people signing up on their own. No fake
+      accounts, no bots, no promises of money in exchange for a sign-up.
+    </p>
+
+    <footer>
+      Referral link: https://make.fun/r/j1fs5kh5 &nbsp;|&nbsp; Referral code: j1fs5kh5
+    </footer>
   </div>
-  <div class="card">
-    <h2>2. Read the rules</h2>
-    <p>Each bounty lists the reward, deadline, and prerequisites. Start with a daily news-image contest.</p>
-  </div>
-  <div class="card">
-    <h2>3. Build and check</h2>
-    <p>Run the kit's starter first, then improve it. Check locally before submitting.</p>
-  </div>
-  <div class="card">
-    <h2>4. Submit and claim</h2>
-    <p>Save your submission id and claim code. Claim prizes from the status page once results post.</p>
-  </div>
-  <p>Read the full guide in <a href="https://make.fun/r/j1fs5kh5">README.md</a>.</p>
-</div>
 </body>
 </html>
